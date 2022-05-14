@@ -1,0 +1,82 @@
+.HomePage {
+  position: relative;
+}
+
+.TabHeader {
+  background-color: #f4f5f5;
+  position: sticky;
+  top: 0;
+}
+
+.Tabs {
+  height: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+}
+
+.Tab {
+  margin: 0 1em;
+  color: #71777c;
+  font-size: 1em;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Tab:hover {
+  color: #007fff;
+}
+
+.SubTabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f4f5f5;
+}
+
+.SubTab {
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: white;
+  margin: 0.5em 1em;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.Article {
+  border: 1px solid #f4f5f5;
+}
+
+.AuthorInfoBar {
+  display: flex;
+}
+
+.AuthorInfoBar > * {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+.ArticleTitle {
+  margin: 0.8em;
+}
+
+.InteractInfoBar {
+  display: flex;
+}
+
+.InteractInfoBar > div {
+  padding: 1em;
+}
+
+.Footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  padding: 0.5em;
+}

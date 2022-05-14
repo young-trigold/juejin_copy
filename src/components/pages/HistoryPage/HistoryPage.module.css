@@ -1,0 +1,29 @@
+.HistoryPage {
+  position: relative;
+}
+
+
+.Article {
+  border: 1px solid #f4f5f5;
+}
+
+.AuthorInfoBar {
+  display: flex;
+}
+
+.AuthorInfoBar > * {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+.ArticleTitle {
+  margin: 0.8em;
+}
+
+.InteractInfoBar {
+  display: flex;
+}
+
+.InteractInfoBar > div {
+  padding: 1em;
+}

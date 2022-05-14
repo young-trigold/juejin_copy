@@ -1,0 +1,18 @@
+.ArticlePage {
+  background-color: #f4f5f5;
+}
+
+.AuthorInfoBar {
+  display: flex;
+  padding: 1em;
+  background-color: white;
+}
+
+.Main {
+  padding: 0 1em;
+  background-color: white;
+}
+
+.UserName {
+  margin-left: 1em;
+}
